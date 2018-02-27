@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, World! - A-Frame</title>
+    <meta name="description" content="Hello, World! - A-Frame">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+    <img id="pic" src="pic.jpg">
+  </a-assets> 
+   <a-sky src="#sky"></a-sky>
+      <a-box position="-4 0.7 -3" rotation="0 50 0" color="#4CC3D9"></a-box>
+      <a-sphere position="0 5.0 -5" radius="4" color="#EF2D5E"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>   
+      <a-ring position=" 0 2 -5" color="red" radius-inner="5" radius-outer="5"></a-ring>
+      <a-dodecahedron color="#FF926B" radius="5"></a-dodecahedron>
+         </a-scene> 
+  </body>
+</html>
